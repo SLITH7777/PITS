@@ -1,1 +1,6 @@
-
+bonus = int(input("введите сумму: "))/10
+print("бонусов: ",bonus)
+while(bonus < 1000):
+    bonus = bonus + int(input("введите число: "))/10
+    print("бонусов: ",bonus)
+print("усё")
