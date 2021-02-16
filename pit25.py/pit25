@@ -1,1 +1,7 @@
+sum = 0
+n = int(input("Введите число"))
+for n in (range(0,n)):
+    sun = int(input("введите число"))
+    sum = sum + sun
+print(sum)
 
