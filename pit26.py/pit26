@@ -1,0 +1,8 @@
+#Программа, которая считывает какое-то целое положительное число из консоли, назовём его n. Выводит сумму чисел 1,2,3,4….n
+peremennaya = int(input("Введите число"))
+summa = 0
+for p in range(1,peremennaya+1):
+    summa = summa+ p
+
+print(summa)
+    
