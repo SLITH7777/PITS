@@ -1,0 +1,8 @@
+ooo = int(input("введите число"))
+svinka = 1
+korsvin = 0
+for p in range(1,ooo+1):
+     korsvin = svinka*svinka
+     svinka = svinka + 1
+     print(korsvin)
+ 
