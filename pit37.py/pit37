@@ -1,1 +1,9 @@
+komanda = input("здравствуйте , я ваш чит-бот, что взломаем сегодня?")
+while komanda != "exit":
+if komanda == "ничего":
+    print("ну пока",end)
+else:
+    print(komanda,"в процессе взлома , укажите координаты" , komanda)
+
+    
 
